@@ -6,6 +6,7 @@
 
 body {
     background-color: #f3e3c8;
+    font-size: 18px;
 }
 
 h1 {
@@ -24,6 +25,7 @@ h1 {
 form {
     width: 50vw;
     max-width: 300px;
+    margin-top: 2em;
     padding: 10px 20px;
     background-color: white;
     border: 1px solid black;
@@ -49,13 +51,15 @@ form div {
 input {
     width: 10vw;
     max-width: 50px;
+    padding: 0.2em;
+    font-size: 0.8em;
 }
 
 #submit {
     width: fit-content;
     max-width: initial;
     margin: 10px auto;
-    padding: 5px 10px;
+    padding: 0.5em 1em;
     border-radius: 10px;
     font-weight: bold;
     font-size: 1em;
@@ -76,7 +80,7 @@ a {
     margin: 0 auto;
     color: white;
     background-color: #e8443c;
-    padding: 5px 15px;
+    padding: 0.5em 1em;
     border-radius: 10px;
     border: 2px solid white;
 }
@@ -115,7 +119,7 @@ a:hover {
 /**** TABLE design ****/
 
 table {
-    margin: 30px auto;
+    margin: 2em auto;
     border-collapse: collapse;
     border: 3px solid black;
 }
