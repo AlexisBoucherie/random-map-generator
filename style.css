@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3e3c8;
+}
+
+h1 {
+    color: #e8443c;
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+/**** FORM design ****/
+
+.form-container, .btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 50vw;
+    max-width: 300px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+h2, p {
+    margin: 10px 0;
+}
+
+form div {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.rows:nth-child(odd) {
+    background-color: #cec2ae;
+}
+
+input {
+    width: 10vw;
+    max-width: 50px;
+}
+
+#submit {
+    width: fit-content;
+    max-width: initial;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    background-color: #e8443c;
+    border: 2px solid white;
+    box-shadow: 0 0 2px #e8443c;
+}
+
+#submit:hover {
+    color: #e8443c;
+    background-color: white;
+    border: 2px solid #e8443c;
+}
+
+a {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: #e8443c;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+a:hover {
+    background-color: white;
+    color: #e8443c;
+    border: 2px solid #e8443c;
+}
+
+#percentage-div {
+    display: flex;
+    justify-content: end;
+}
+
+#percentage-div div {
+    width: 7vw;
+}
+
+#total-percentage {
+    text-align: right;
+}
+
+.warning {
+    background-color: #ffcc00;
+    color: white;
+    text-align: center;
+    width: 75vw;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #9d8100;
+}
+
+/**** TABLE design ****/
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+/**** CELLS design ****/
+
+.hill {
+    background-image: url("img/hill.jpg");
+    background-size: cover;
+}
+
+.desert {
+    background-image: url("img/desert.jpg");
+    background-size: cover;
+}
+
+.forest {
+    background-image: url("img/forest.jpg");
+    background-size: cover;
+}
+
+.lake {
+    background-image: url("img/lake.jpg");
+    background-size: cover;
+}
+
+.swamp {
+    background-image: url("img/swamp.jpg");
+    background-size: cover;
+}
+
+.mountain {
+    background-image: url("img/mountain.jpg");
+    background-size: cover;
+}
+
+.plain {
+    background-image: url("img/plain.jpg");
+    background-size: cover;
+}
+
+.volcano {
+    background-image: url("img/volcano.jpg");
+    background-size: cover;
+}
